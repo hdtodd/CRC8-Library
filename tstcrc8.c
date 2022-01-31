@@ -30,7 +30,7 @@ void main(void) {
 
   /* check section 7.2.1.1 */
 
-  printf("Check table XOR'd CRC with SWS_Crc_00053 in AutoSAR\n");
+  printf("Check table XOR'd CRC with SWS_Crc_00052 in AutoSAR\n");
   poly = 0x1d;
   buildCRC8Table(poly);
 //dumpCRC8Table();
