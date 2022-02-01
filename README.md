@@ -43,7 +43,7 @@ So I wanted a library that would do the following:
 -  Allow me to select the "initial remainder"
 -  _NOT_ XOR the result within the library
 
-In the end, I needed test programs that would test the libraries in both C and Pythong in such a way that I could verify against a standard published source.  I found one that seemed reputable from AUTOSAR [I'd welcome suggestions of other standards if you know of any!].   So I wrote testing programs to verify the CRC-8 checksums from both the C and Python libraries against tables in section 7.2.1 of:
+In the end, I needed test programs that would test the libraries in both C and Python in such a way that I could verify against a standard published source.  I found one that seemed reputable from AUTOSAR [I'd welcome suggestions of other standards if you know of any!].   So I wrote testing programs to verify the CRC-8 checksums from both the C and Python libraries against tables in section 7.2.1 of:
 [https://www.autosar.org/fileadmin/user_upload/standards/classic/20-11/AUTOSAR_SWS_CRCLibrary.pdf](https://users.ece.cmu.edu/~koopman/roses/dsn04/koopman04_crc_poly_embedded.pdf)
 
 # Use
