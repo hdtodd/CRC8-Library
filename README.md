@@ -58,16 +58,16 @@ The CRC-8 routines are simple to use:
 	But 0x97 is the "best" choice for messages of length <=119, and 0 would be a reasonable choice for "init".  
 	(Notice, though, that the AUTOSAR tables use 0xFF for "init", which is also another common choice.) 
 	
-	"msg" is an array of uint8\_t in c and a bytearray() in Python; "Length" is an integer; 
-	and "init" is a uint8\_t in C and an integer in Python.
+	"msg" is an array of uint8_t in c and a bytearray() in Python; "Length" is an integer; 
+	and "init" is a uint8_t in C and an integer in Python.
 - If you want to choose your own polynomial divisor,
 > **buildCRC8Table(poly)**
 
-	where "poly" is a uint8\_t byte in C and an integer in Python.
+	where "poly" is a uint8_t byte in C and an integer in Python.
 - To find out what the current polynomial divisor is,
 > **getCRC8poly()**
 
-	returns that value (as a uint8\_t in C and an integer in Python).
+	returns that value (as a uint8_t in C and an integer in Python).
 - To see the current CRC-8 remainder table, 
 > **dumpCRC8Table()**
 
