@@ -89,7 +89,7 @@ def buildCRC8Table(poly):
   global CRC8POLY
   global CRC8Table
   CRC8POLY = poly
-  print("In build, poly = {:02x}, CRC8POLY = 0x{:02x}".format(poly, CRC8POLY))
+
   for i in range (0,256):
     c = i
     for j in range (0,8):
