@@ -83,7 +83,7 @@ If you want to XOR the resulting CRC-8 checksum (as some algorithms do), you'll 
 Both the C and Python libraries include testing programs that generate the CRC-8 tables in the AUTOSAR reference.  You may want to review those as working examples for your use.
 
 ## Author
-Written by H David Todd, February, 2022, but not my original work: I copied example code from many other sources along the way.  
+Written by H David Todd, February, 2022, but not my original work: I copied example code from many other sources along the way.
 
 Please report errors or make comments to hdtodd@gmail.com.  Thanks!
 
