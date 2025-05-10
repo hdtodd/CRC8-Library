@@ -73,8 +73,7 @@ The CRC-8 routines are simple to use:
 
 	prints the 256-byte table to the standard output.
 	
-If you're programming in C, you'll need to "#include libcrc8.h" in files that reference library procedures.  
-If you're programming in Python, you'll need to "import libcrc8".
+If you're programming in C, you'll need to "#include libcrc8.h" in files that reference library procedures.  If you're programming in Python, you'll need to "import libcrc8".
 
 If you want to XOR the resulting CRC-8 checksum (as some algorithms do), you'll need to do it yourself in the calling program with the result from the crc8() function call.  If you want your message reflected, you'll have to do it before calling crc8.  Again, this is intended to be a simple, straightforward CRC-8 calculation with no complications hidden in the library.  If you find otherwise, please let me know.
 
