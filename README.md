@@ -60,7 +60,7 @@ The CRC-8 routines are simple to use:
 	
 	"msg" is an array of uint8_t in c and a bytearray() in Python; "Length" is an integer; 
 	and "init" is a uint8_t in C and an integer in Python.
-For 80-bit messages, the CRC-8 algorithm appears to detect about 90% of block-insertion types of errors ([ISMErrDetect](https://github.com/hdtodd/ISMErrDetect)) regardless of the value of 'init', but to avoid potential failure in pathological cases of messages with blocks of 0's or 1's, heed Williams' advice and avoid an 'init' value of 0x00.
+>  For 80-bit messages, the CRC-8 algorithm appears to detect about 90% of block-insertion types of errors ([ISMErrDetect](https://github.com/hdtodd/ISMErrDetect)) regardless of the value of 'init', but to avoid potential failure in pathological cases of messages with blocks of 0's or 1's, heed Williams' advice and avoid an 'init' value of 0x00.
 - If you want to choose your own polynomial divisor,
 > **buildCRC8Table(poly)**
 
